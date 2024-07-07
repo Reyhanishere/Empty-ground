@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EF832A;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.text-section {
+    width: 100%;
+    flex: 1;
+    background-color: #1F132B;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    align-self:center;
+}
+
+.text-section h1 {
+    align-self:center;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.text-section h2 {
+    align-self:center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.text-section p {
+    align-self:center;
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+.image-section {
+    flex: 2;
+    /* background-image: url('https://wallpapersmug.com/download/1920x1080/8d554d/celestial-world-digital-art-space-colorful.jpg'); */
+    background-color: #B85252;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+
+    /* background-size: cover;
+    background-position: center; */
+    /* clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%); */
+}
+
+.image-section h2{
+    align-self:center;
+}
