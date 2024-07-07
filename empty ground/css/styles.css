@@ -5,16 +5,16 @@ body {
 }
 
 .container {
+    background-image: url("empty ground/social/peach-room.jpg");
     display: flex;
     height: 100vh;
-    overflow: hidden;
     flex-direction: column;
 }
 
 .text-section {
     width: 100%;
     flex: 1;
-    background-color: #1F132B;
+/*     background-color: #1F132B; */
     color: white;
     padding: 50px;
     display: flex;
@@ -45,7 +45,7 @@ body {
 .image-section {
     flex: 2;
     /* background-image: url('https://wallpapersmug.com/download/1920x1080/8d554d/celestial-world-digital-art-space-colorful.jpg'); */
-    background-color: #B85252;
+/*     background-color: #B85252; */
     color: white;
     padding: 50px;
     display: flex;
