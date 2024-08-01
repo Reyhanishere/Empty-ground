@@ -4,20 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>empty ground for baren</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="./output.css" rel="stylesheet">
     <link rel="icon" href="./images/icon/favicon.ico">
     <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                MedpartoutNavy: '#1F132B',
+                MedpartoutPeach: '#FFAA80',
+              }
+            }
+          }
+        }
+      </script>
+        <style type="text/tailwindcss">
+            @layer utilities {
+              .content-auto {
+                content-visibility: auto;
+              }
+            }
+          </style>
+           <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
 </head>
-<body>
-    <div class="container">
-        <div class="text-section">
-            <h1>Dr.Dawsh</h1>
-          <h2>For you my bro</h2>
-            <p>we should get married as soon as possible right??</p>
-        </div>
-        <div class="image-section">
-            <h2>life has a funny way</h2>
-        </div>
+<body >
+    <div class="lg:content-auto prose">
+    <div class="bg-MedpartoutNavy h-80 w-full "></div>
+    <div class="main mx-32 ">
+    <h1 class="text-3xl text-blue-400  font-bold underline m-2.5">
+        Hello world!
+    </h1>
+    <div>
+    <img class="float-right hover:float-left w-28" src="./peach-room.jpg" alt="moah">
+    <p class="text-gray-800  font-bold m-2.5">lifoooo
+        shine bright like a diamond
+Find light in the beautiful sea, I choose to be happy
+You and I, you and I, we're like diamonds in the sky
+You're a shooting star I see, a vision of ecstasy
+When you hold me, I'm alive, we're like diamonds in the sky
+I knew that we'd become one right away
+Oh, right away
+At first sight I felt the energy of sun rays
+I saw the life inside your eyes
+So shine bright, tonight, you and I
+We're beautiful like diamonds in the sky
+Eye to eye, so alive
+We're beautiful like diamonds in the sky
+Shine bright like a diamond (whoa)
+Shine bright like a diamond (whoa)
+Shining bright like a diamond
+We're beautiful like diamonds in the sky
+Shine bright like a diamond (whoa)
+Shine bright like a diamond (whoa)
+Shining bright like a diamond
+We're beautiful like diamonds in the sky
+Palms rise to the universe as we moonshine and molly
+Feel the warmth, we'll never die, we're like diamonds in the sky
+    </p>
+</div>
+</div>
+
+    <div class="bg-MedpartoutPeach h-80 w-full"></div>
     </div>
+</div>
 </body>
 </html>
